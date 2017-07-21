@@ -67,7 +67,8 @@ pip --no-cache-dir install \
         scipy \
         sklearn \
         sklearn \
-		gym
+	gym \
+	gym
 
 python -m ipykernel.kernelspec
 
