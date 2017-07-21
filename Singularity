@@ -68,6 +68,8 @@ pip --no-cache-dir install \
         sklearn \
         sklearn
 
+pip --no-cache-dir install gym
+
 python -m ipykernel.kernelspec
 
 echo "/usr/local/cuda-8.0/lib64/" >/etc/ld.so.conf.d/cuda.conf
